@@ -11,11 +11,10 @@ export function TipCard() {
   if (!show) return null;
   return (
     <Card className="w-100 p-2 sm:w-[31rem]">
-      <h2 className="text-primary-500">Bridge Tokens with Hyperlane Warp Routes!</h2>
+      <h2 className="text-primary-500">Bridge SANSHU! Tokens to Layer 2 for low fees!</h2>
       <div className="flex items-end justify-between">
         <p className="mt-1 max-w-[75%] text-xs">
-          Warp Routes make it easy to permissionlessly take your tokens interchain. Fork this
-          template to get started!
+        Move your SANSHU! tokens to Arbitrum or Base with ease. Thanks to a unified liquidity pool connected to Ethereum, all transactions share the same token supply, avoiding fragmented pools that can weaken liquidity.
         </p>
         <a
           href={links.github}
