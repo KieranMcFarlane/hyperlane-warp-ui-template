@@ -1,0 +1,25 @@
+ethereum:
+  mailbox: "0xc005dc82818d67AF737725bD4bf75435d065D239" # Ethereum Mailbox Address
+  owner: "0x16a4c8Ac5086Bc1428fb9c2681E2E10ab89f4625"   # Owner Address
+  name: "SANSHU"
+  symbol: "SANSHU!"
+  decimals: 18
+  totalSupply: "0"
+  remoteRouters:
+    8453: # Base domain ID
+      address: "0xeA87ae93Fa0019a82A727bfd3eBd1cFCa8f64f1D" # Router address on Base
+  type: "native"
+  ism: "default"
+
+base:
+  mailbox: "0xeA87ae93Fa0019a82A727bfd3eBd1cFCa8f64f1D"  # Base Mailbox Address
+  owner: "0x16a4c8Ac5086Bc1428fb9c2681E2E10ab89f4625"   # Owner Address
+  name: "SANSHU"
+  symbol: "SANSHU!"
+  decimals: 18
+  totalSupply: "0"
+  remoteRouters:
+    1: # Ethereum domain ID
+      address: "0xc005dc82818d67AF737725bD4bf75435d065D239" # Router address on Ethereum
+  type: "synthetic"
+  ism: "default"
